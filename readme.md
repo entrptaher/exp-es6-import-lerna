@@ -8,6 +8,8 @@ First install lerna and yarn, then bootstrap and symlink the packages,
 lerna bootstrap
 ```
 
+Now let's look into individual packages.
+
 ### without-rollup
 
 is a es6 package which uses `export default` syntax. This is not supported normally, but let's see.
