@@ -50,7 +50,7 @@ lerna run build:watch:parcel --stream
 
 ### with-webpack
 
-is basically same as the rollup config, we provide it with required babel configuration etc and it will import as needed. For example's sake, I have put a dev server on webpack.
+is basically same as the rollup config, we provide it with required babel configuration etc and it will import as needed. For example's sake, I have put a dev server on webpack. It will create a dev index.html by itself.
 
 ```sh
 lerna run build:watch:webpack --stream
