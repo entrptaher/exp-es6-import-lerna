@@ -14,3 +14,4 @@ One main rollup config file.
 - driver:
     - builds if we don't **run** it on node.
     - remove the **only** field
+    - had to use iife and output.name
