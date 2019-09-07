@@ -1,5 +1,5 @@
 {
-  "name": "without-rollup",
+  "name": "@automatio/chrome-shared",
   "version": "1.0.0",
   "license": "MIT",
   "main": "index.js"

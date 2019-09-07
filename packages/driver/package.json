@@ -1,0 +1,12 @@
+{
+  "name": "@automatio/driver",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build:watch:driver": "rollup -w -c ../../rollup-browser.config.js"
+  },
+  "dependencies": {
+    "@automatio/driver-methods": "^1.0.0"
+  }
+}

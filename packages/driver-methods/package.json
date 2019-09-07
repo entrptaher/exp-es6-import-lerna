@@ -1,0 +1,10 @@
+{
+  "name": "@automatio/driver-methods",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "auto-bind": "^2.1.0",
+    "user-defined-methods": "^1.0.0"
+  }
+}

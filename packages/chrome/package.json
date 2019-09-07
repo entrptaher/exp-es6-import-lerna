@@ -1,0 +1,15 @@
+{
+  "name": "@automatio/chrome",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build:watch:chrome": "rollup -w -c ../../rollup-node.config.js"
+  },
+  "dependencies": {
+    "@automatio/chrome-shared": "^1.0.0",
+    "@automatio/driver": "^1.0.0",
+    "@automatio/driver-methods": "^1.0.0",
+    "puppeteer": "^1.19.0"
+  }
+}
