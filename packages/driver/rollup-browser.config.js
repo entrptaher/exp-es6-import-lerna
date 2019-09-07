@@ -1,4 +1,3 @@
-import run from "rollup-plugin-run";
 import commonjs from "rollup-plugin-commonjs";
 import nodeResolve from "rollup-plugin-node-resolve";
 
@@ -9,7 +8,6 @@ baseOptions.output.name = 'driver'
 export default {
   ...baseOptions,
   plugins: [
-    process.env.SHOULDRUN ? run() : '',
     commonjs({
       include: /node_modules/
     }),

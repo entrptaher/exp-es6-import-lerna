@@ -12,5 +12,5 @@ One main rollup config file.
     - works with node.
     - add the **only** field
 - driver:
-    - builds if we don't **run** it on node. Used process.env.SHOULDRUN
+    - builds if we don't **run** it on node.
     - remove the **only** field
